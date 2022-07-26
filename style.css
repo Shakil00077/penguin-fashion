@@ -108,9 +108,11 @@ section h1 {
 .about-section-left-part {
   display: flex;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  align-items: center;
 }
 .about-section-left-part img {
-  width: 100px;
+  width: 70px;
+  height: 70px;
 }
 .about-section-left-part h2,
 p {
@@ -120,7 +122,7 @@ footer {
   background-color: #363958;
 }
 footer p {
-  padding: 70px;
   text-align: center;
   color: white;
+  padding: 70px;
 }
