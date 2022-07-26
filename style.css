@@ -47,17 +47,18 @@ header {
   border: none;
   background-color: #e02c6d;
   color: white;
-  padding: 7px 20px;
+  padding: 10px 20px;
   border-radius: 10px;
   font-weight: 700;
 }
 /* woman jacket section */
-.woman-jacket-section {
+.jacket-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin-top: 0px;
 }
 
-.woman-jacket-section img {
+.jacket-section img {
   width: 290px;
   display: block;
   margin-left: auto;
@@ -69,7 +70,7 @@ header {
   border-radius: 20px;
   width: 330px;
 }
-.woman-jacket-section h2 {
+.jacket-section h2 {
   color: #363958;
 }
 .price {
@@ -80,8 +81,6 @@ header {
   margin-top: 0px;
 }
 .single-jacket {
-  width: 370px;
-  height: 550px;
   background: #ffffff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
@@ -90,4 +89,38 @@ header {
   color: #fabe4c;
   font-size: 28px;
   font-weight: 700;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+section h1 {
+  color: #363958;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-section img {
+  width: 500px;
+}
+.about-section-left-part {
+  display: flex;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.about-section-left-part img {
+  width: 100px;
+}
+.about-section-left-part h2,
+p {
+  color: #363958;
+}
+footer {
+  background-color: #363958;
+}
+footer p {
+  padding: 70px;
+  text-align: center;
+  color: white;
 }
