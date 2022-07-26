@@ -44,12 +44,16 @@ header {
   margin-bottom: 10px;
 }
 .buy-now-btn {
+  font-size: 15px;
   border: none;
   background-color: #e02c6d;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
   font-weight: 700;
+}
+.buy-now-btn i {
+  margin: 0px;
 }
 /* woman jacket section */
 .jacket-section {
@@ -77,9 +81,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 0px;
-  margin-top: 0px;
+  margin: 0px;
 }
+
 .single-jacket {
   background: #ffffff;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
@@ -89,8 +93,6 @@ header {
   color: #fabe4c;
   font-size: 28px;
   font-weight: 700;
-  margin-top: 0px;
-  padding-top: 0px;
 }
 section h1 {
   color: #363958;
@@ -117,6 +119,7 @@ section h1 {
 .about-section-left-part h2,
 p {
   color: #363958;
+  margin: 5px;
 }
 footer {
   background-color: #363958;
@@ -125,4 +128,7 @@ footer p {
   text-align: center;
   color: white;
   padding: 70px;
+}
+.left-side-text {
+  margin: 0px;
 }
